@@ -38,6 +38,6 @@ def data():
 	else:
 		return {"response":"Less chance of heart"}
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run()
 
 
