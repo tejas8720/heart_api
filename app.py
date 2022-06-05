@@ -24,7 +24,7 @@ def index():
 def data():
 	list_data=[]
 	#print(request.get_json());
-	names = ["age","sex","cp","trtbps","chol","fbs","restecg","thalachh","exng","oldpeak","slp","caa","thall"]
+	names = ["age","sex","cp","trtbps","chol","fbs","restecg","thalachh","exng","oldpeak","slp","caa","thall","obesity","immuneDZ","triglyceride","serumHCY","LIPO","smoking"]
 	for i in names:
 		if i=="oldpeak":
 			list_data.append(float(request.json[i]))
